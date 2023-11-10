@@ -4,7 +4,9 @@
   "scripts": {
     "dev": "yarn run start",
     "start": "bun index.tsx",
-    "lint": "prettier --write *.{js,css,html,scss,json,md,ts,tsx}"
+    "lint": "prettier --write *.{js,css,html,scss,json,md,ts,tsx}",
+    "surge": "yarn run deploy",
+    "deploy": "surge . http://teachablemachine-demo.surge.sh/"
   },
   "devDependencies": {
     "husky": "^4.3.0",
