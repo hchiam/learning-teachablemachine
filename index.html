@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>teachablemachine demo</title>
-    <link id="mode_path" href="/my_model/" />
+    <link id="model_path" href="/my_model/" />
   </head>
   <body>
     <div>Teachable Machine Image Model</div>
@@ -18,7 +18,7 @@
       // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 
       // the link to your model provided by Teachable Machine export panel
-      const URL = document.querySelector("#mode_path").getAttribute("href");
+      const URL = document.querySelector("#model_path").getAttribute("href");
 
       let model, webcam, labelContainer, maxPredictions;
 
