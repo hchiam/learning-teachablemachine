@@ -6,7 +6,7 @@ https://teachablemachine.withgoogle.com
 
 https://teachablemachine.withgoogle.com/train/image
 
-https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
+https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image#teachable-machine-library---image
 
 https://teachablemachine.withgoogle.com/faq#Saving-&-Exporting
 
